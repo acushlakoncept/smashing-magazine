@@ -70,7 +70,66 @@ body {
   color: #fff;
 }
 
-.secondary-articles{
+.main-article__1{
 display: grid;
-grid-template-columns: ;
+grid-template-columns:repeat(4,1fr);
+padding-top: 5rem;
+margin-bottom: 3rem;
+}
+
+.article-item{
+position: relative;
+  height: 60rem;
+ padding: 3rem 4rem 0 ;
+}
+
+.article-item__time{
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  color: #888;
+}
+
+.article-item__title{
+  text-decoration: underline;
+  font-size: 2.3rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+
+.supporters-box img{
+  width: 100%;
+}
+
+.article-item__author{
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #888;
+  margin-bottom: 2rem;
+  display: inline-block;
+}
+
+.article-item__author a {
+  text-decoration: underline;
+  color: #888;
+}
+
+.article-item__text{
+  font-size: 1.6rem;
+  line-height: 1.7;
+}
+
+.article-item__arrow{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: inline-block;
+  height: 8rem;
+  width: 8rem;
+  background-color: blue;
+  color: white;
+  font-size: 3rem;
+  text-align: center;
+  vertical-align: middle;
+  padding-top: 1.2rem;
+  padding-left: 1.3rem;
 }
