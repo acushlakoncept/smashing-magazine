@@ -1,222 +1,270 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Smashing Magazine Clone</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Smashing Magazine Clone</title>
-  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="assets/css/style.css" />
-  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-</head>
-
-<body>
-  <div class="section-menu">
-    <div class="logo">
-      <img src="assets/images/logo--full.svg" alt="logo" />
-    </div>
-    <ul class="section-menu__nav">
-      <li>
-        <a class="section-menu__nav--links" href="#">Articles</a>
-      </li>
-      <li>
-        <a class="section-menu__nav--links" href="#">Guides</a>
-      </li>
-      <li>
-        <a class="section-menu__nav--links" href="#">Books</a>
-      </li>
-      <li>
-        <a class="section-menu__nav--links" href="#">Events</a>
-      </li>
-      <li>
-        <a class="section-menu__nav--links" href="#">Membership</a>
-      </li>
-      <li>
-        <a class="section-menu__nav--links" href="#">Jobs</a>
-      </li>
-      <li>
-        <a class="section-menu__nav--links active" href="#">
-          More
-          <img src="assets/images/menu-cat.svg" alt="cat" class="menu-cat" /></a>
-      </li>
-    </ul>
-    <form action="#" class="section-menu__search">
-      <input type="search" placeholder="Search articles" class="section-menu__input" />
-    </form>
-  </div>
-
-  <header class="section-header">
-    <h1 class="heading-primary">
-      Don't Miss These Latest Articles
-    </h1>
-    <div class="section-header__left">
-      <div class="switch-color">&nbsp;</div>
-      <div class="switch-color--text">Seriously, red?</div>
+  <body>
+    <div class="section-menu">
+      <div class="logo">
+        <img src="assets/images/logo--full.svg" alt="logo" />
+      </div>
+      <ul class="section-menu__nav">
+        <li>
+          <a class="section-menu__nav--links" href="#">Articles</a>
+        </li>
+        <li>
+          <a class="section-menu__nav--links" href="#">Guides</a>
+        </li>
+        <li>
+          <a class="section-menu__nav--links" href="#">Books</a>
+        </li>
+        <li>
+          <a class="section-menu__nav--links" href="#">Events</a>
+        </li>
+        <li>
+          <a class="section-menu__nav--links" href="#">Membership</a>
+        </li>
+        <li>
+          <a class="section-menu__nav--links" href="#">Jobs</a>
+        </li>
+        <li>
+          <a class="section-menu__nav--links active" href="#">
+            More
+            <img src="assets/images/menu-cat.svg" alt="cat" class="menu-cat"
+          /></a>
+        </li>
+      </ul>
+      <form action="#" class="section-menu__search">
+        <input
+          type="search"
+          placeholder="Search articles"
+          class="section-menu__input"
+        />
+      </form>
     </div>
 
-    <div class="section-header__grid">
-      <div class="section-header__grid-box">
-        <div class="section-header__author">
-          <img src="assets/images/paulboag-200x200.jpg" alt="paul boag" />
-          <h3>Paul Boag <span>wrote</span></h3>
+    <header class="section-header">
+      <h1 class="heading-primary">
+        Don't Miss These Latest Articles
+      </h1>
+      <div class="section-header__left">
+        <div class="switch-color rotate-up">
+          <i class="switch-color__circle">&nbsp;</i>
         </div>
-        <h2 class="heading-secondary">
-          How to convince others not to use dark pattersn
-          <span class="section-header__comments">1 comment</span>
-        </h2>
-
-        <ul class="section-header__hashtag">
-          <li>
-            <a href="#">#Ethics<sup>17</sup></a>
-          </li>
-          <li>
-            <a href="#">#Design Patterns<sup>47</sup></a>
-          </li>
-          <li>
-            <a href="#">#User Experience<sup>296</sup></a>
-          </li>
-        </ul>
-
-        <a href="#" class="section-header__arrow"></a>
+        <div class="switch-color--text">Seriously, red?</div>
       </div>
 
-      <div class="section-header__grid-box">
-        <div class="section-header__author">
-          <img src="assets/images/paulboag-200x200.jpg" alt="paul boag" />
-          <h3>Paul Boag <span>wrote</span></h3>
-        </div>
-        <h2 class="heading-secondary">
-          How to convince others not to use dark pattersn
-          <span class="section-header__comments">1 comment</span>
-        </h2>
-
-        <ul class="section-header__hashtag">
-          <li>
-            <a href="#">#Ethics<sup>17</sup></a>
-          </li>
-          <li>
-            <a href="#">#Design Patterns<sup>47</sup></a>
-          </li>
-          <li>
-            <a href="#">#User Experience<sup>296</sup></a>
-          </li>
-        </ul>
-
-        <a href="#" class="section-header__arrow"></a>
-      </div>
-
-      <div class="section-header__grid-box">
-        <div class="section-header__author">
-          <img src="assets/images/paulboag-200x200.jpg" alt="paul boag" />
-          <h3>Paul Boag <span>wrote</span></h3>
-        </div>
-        <h2 class="heading-secondary">
-          How to convince others not to use dark pattersn
-          <span class="section-header__comments">1 comment</span>
-        </h2>
-
-        <ul class="section-header__hashtag">
-          <li>
-            <a href="#">#Ethics<sup>17</sup></a>
-          </li>
-          <li>
-            <a href="#">#Design Patterns<sup>47</sup></a>
-          </li>
-          <li>
-            <a href="#">#User Experience<sup>296</sup></a>
-          </li>
-        </ul>
-
-        <a href="#" class="section-header__arrow"></a>
-      </div>
-
-      <div class="section-header__grid-box">
-        <div class="section-header__author">
-          <img src="assets/images/paulboag-200x200.jpg" alt="paul boag" />
-          <h3>Paul Boag <span>wrote</span></h3>
-        </div>
-        <h2 class="heading-secondary">
-          How to convince others not to use dark pattersn
-          <span class="section-header__comments">1 comment</span>
-        </h2>
-
-        <ul class="section-header__hashtag">
-          <li>
-            <a href="#">#Ethics<sup>17</sup></a>
-          </li>
-          <li>
-            <a href="#">#Design Patterns<sup>47</sup></a>
-          </li>
-          <li>
-            <a href="#">#User Experience<sup>296</sup></a>
-          </li>
-        </ul>
-        <a href="#" class="section-header__arrow"></a>
-      </div>
-    </div>
-  </header>
-  <main class="main-article">
-    <div class="main-article__1">
-      <div class="article-item">
-        <time class="article-item__time">6 days ago</time>
-        <h2 class="article-item__title">How To Build A Vue Survey App Using Firebase Authentication And Database</h2>
-        <span class="article-item__author">by <a href="#">David Atanda</a></span>
-        <p class="article-item__text">This tutorial would take you on a step by step guide to build a functional survey
-          app using Vue.js and
-          Firebase. From validating the user’s data through Vuelidate, to authentication, storing the user’s data, route
-          protection and sending data to …</p>
-        <a class="article-item__arrow" href="#">&#8594;
-        </a>
-      </div>
-
-      <div class="article-item">
-        <time class="article-item__time">6 days ago</time>
-        <h2 class="article-item__title">How To Build A Vue Survey App Using Firebase Authentication And Database</h2>
-        <span class="article-item__author">by <a href="#">David Atanda</a></span>
-        <p class="article-item__text">This tutorial would take you on a step by step guide to build a functional survey
-          app using Vue.js and
-          Firebase. From validating the user’s data through Vuelidate, to authentication, storing the user’s data, route
-          protection and sending data to …</p>
-        <a class="article-item__arrow" href="#">&#8594;
-        </a>
-      </div>
-
-      <div class="article-item">
-        <time class="article-item__time">6 days ago</time>
-        <h2 class="article-item__title">How To Build A Vue Survey App Using Firebase Authentication And Database</h2>
-        <span class="article-item__author">by <a href="#">David Atanda</a></span>
-        <p class="article-item__text">This tutorial would take you on a step by step guide to build a functional survey
-          app using Vue.js and
-          Firebase. From validating the user’s data through Vuelidate, to authentication, storing the user’s data, route
-          protection and sending data to …</p>
-        <a class="article-item__arrow" href="#">&#8594;
-        </a>
-      </div>
-      <div class="article-item comercial">
-        <span>Our friends and supporters &#8595;
-        </span>
-        <a href="#">
-          <div class="supporters-box">
-            <img src="/assets/images/catch.png" alt="supporters">
-            <h4>Get the user’s view</h4>
-            <p>Remote usability testing for all interfaces, devices, and teams.</p>
-            <span class="supporters-box__btn">free trial</span>
+      <div class="section-header__grid">
+        <div class="section-header__grid-box">
+          <div class="section-header__author">
+            <img
+              class="rotate-up"
+              src="assets/images/paulboag-200x200.jpg"
+              alt="paul boag"
+            />
+            <h3>Paul Boag <span>wrote</span></h3>
           </div>
-        </a>
+          <h2 class="heading-secondary">
+            How to convince others not to use dark patterns
+            <span class="section-header__comments">
+              <i class="fas fa-comment-alt"></i> 1 comment</span
+            >
+          </h2>
 
+          <ul class="section-header__hashtag">
+            <li>
+              # <a href="#">Ethics<sup>17</sup></a>
+            </li>
+            <li>
+              # <a href="#">Design Patterns<sup>47</sup></a>
+            </li>
+            <li>
+              # <a href="#">User Experience<sup>296</sup></a>
+            </li>
+          </ul>
+
+          <a href="#" class="section-header__arrow">&#8594;</a>
+        </div>
+
+        <div class="section-header__grid-box">
+          <div class="section-header__author">
+            <img
+              class="rotate-up"
+              src="assets/images/vitaly-friedman.jpg"
+              alt="Vitaly Friedman"
+            />
+            <h3>Vitaly Friedman <span>wrote</span></h3>
+          </div>
+          <h2 class="heading-secondary">
+            Meet “Click!”: Encourage Clicks Without Shady Tricks
+            <span class="section-header__comments">
+              <i class="fas fa-comment-alt"></i> 1 comment</span
+            >
+          </h2>
+
+          <ul class="section-header__hashtag">
+            <li>
+              # <a href="#">Business<sup>299</sup></a>
+            </li>
+            <li>
+              # <a href="#">Usability<sup>147</sup></a>
+            </li>
+            <li>
+              # <a href="#">Smashing Books<sup>39</sup></a>
+            </li>
+          </ul>
+
+          <a href="#" class="section-header__arrow">&#8594;</a>
+        </div>
+
+        <div class="section-header__grid-box">
+          <div class="section-header__author">
+            <img
+              class="rotate-up"
+              src="assets/images/thomas-bohm-200x200.png"
+              alt="Thomas Bohm"
+            />
+            <h3>Thomas Bohm <span>wrote</span></h3>
+          </div>
+          <h2 class="heading-secondary">
+            Micro-Typography: How To Space And Kern Punctuation Marks And Other
+            Symbols
+            <span class="section-header__comments"
+              ><i class="fas fa-comment-alt"></i> 1 comment</span
+            >
+          </h2>
+
+          <ul class="section-header__hashtag">
+            <li>
+              # <a href="#">Typography<sup>129</sup></a>
+            </li>
+            <li>
+              # <a href="#">User Experience<sup>296</sup></a>
+            </li>
+            <li>
+              # <a href="#">CSS<sup>306</sup></a>
+            </li>
+          </ul>
+
+          <a href="#" class="section-header__arrow">&#8594;</a>
+        </div>
+
+        <div class="section-header__grid-box">
+          <div class="section-header__author">
+            <img
+              class="rotate-up"
+              src="assets/images/blessing-krofegha-200x200.jpg"
+              alt="Blessing "
+            />
+            <h3>Blessing Krofegha <span>wrote</span></h3>
+          </div>
+          <h2 class="heading-secondary">
+            Setting TypeScript For Modern React Projects Using Webpack And Babel
+            <span class="section-header__comments"
+              ><i class="fas fa-comment-alt"></i> 3 comment</span
+            >
+          </h2>
+
+          <ul class="section-header__hashtag">
+            <li>
+              #<a href="#">React<sup>36</sup></a>
+            </li>
+            <li>
+              #<a href="#">Tools<sup>220</sup></a>
+            </li>
+          </ul>
+          <a href="#" class="section-header__arrow">&#8594;</a>
+        </div>
       </div>
-    </div>
-    <div class="main-article__2">
-      <div class="article-item features"></div>
-      <div class="article-item"></div>
-      <div class="article-item"></div>
-    </div>
-    <div class="main-article__3">
-      <div class="article-item"></div>
-      <div class="article-item"></div>
-      <div class="article-item news"></div>
-    </div>
-  </main>
-</body>
+    </header>
+    <main class="main-article">
+      <div class="main-article__1">
+        <div class="article-item">
+          <time class="article-item__time">6 days ago</time>
+          <h2 class="article-item__title">
+            How To Build A Vue Survey App Using Firebase Authentication And
+            Database
+          </h2>
+          <span class="article-item__author"
+            >by <a href="#">David Atanda</a></span
+          >
+          <p class="article-item__text">
+            This tutorial would take you on a step by step guide to build a
+            functional survey app using Vue.js and Firebase. From validating the
+            user’s data through Vuelidate, to authentication, storing the user’s
+            data, route protection and sending data to …
+          </p>
+          <a class="article-item__arrow" href="#">&#8594; </a>
+        </div>
 
+        <div class="article-item">
+          <time class="article-item__time">6 days ago</time>
+          <h2 class="article-item__title">
+            How To Build A Vue Survey App Using Firebase Authentication And
+            Database
+          </h2>
+          <span class="article-item__author"
+            >by <a href="#">David Atanda</a></span
+          >
+          <p class="article-item__text">
+            This tutorial would take you on a step by step guide to build a
+            functional survey app using Vue.js and Firebase. From validating the
+            user’s data through Vuelidate, to authentication, storing the user’s
+            data, route protection and sending data to …
+          </p>
+          <a class="article-item__arrow" href="#">&#8594; </a>
+        </div>
+
+        <div class="article-item">
+          <time class="article-item__time">6 days ago</time>
+          <h2 class="article-item__title">
+            How To Build A Vue Survey App Using Firebase Authentication And
+            Database
+          </h2>
+          <span class="article-item__author"
+            >by <a href="#">David Atanda</a></span
+          >
+          <p class="article-item__text">
+            This tutorial would take you on a step by step guide to build a
+            functional survey app using Vue.js and Firebase. From validating the
+            user’s data through Vuelidate, to authentication, storing the user’s
+            data, route protection and sending data to …
+          </p>
+          <a class="article-item__arrow" href="#">&#8594; </a>
+        </div>
+        <div class="article-item comercial">
+          <span>Our friends and supporters &#8595; </span>
+          <a href="#">
+            <div class="supporters-box">
+              <img src="/assets/images/catch.png" alt="supporters" />
+              <h4>Get the user’s view</h4>
+              <p>
+                Remote usability testing for all interfaces, devices, and teams.
+              </p>
+              <span class="supporters-box__btn">free trial</span>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="main-article__2">
+        <div class="article-item features"></div>
+        <div class="article-item"></div>
+        <div class="article-item"></div>
+      </div>
+      <div class="main-article__3">
+        <div class="article-item"></div>
+        <div class="article-item"></div>
+        <div class="article-item news"></div>
+      </div>
+    </main>
+  </body>
 </html>
