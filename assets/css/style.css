@@ -230,12 +230,25 @@ body {
   background-color: #f7f3f2;
 }
 
-.main-article__1 {
+.main-article__1,
+.main-article__2,
+.main-article__3 {
   display: grid;
   position: relative;
-  grid-template-columns: repeat(4, 1fr);
   padding-top: 10rem;
   margin-bottom: 3rem;
+}
+
+.main-article__1 {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.main-article__2 {
+  grid-template-columns: 2fr 1fr 1fr;
+}
+
+.main-article__3 {
+  grid-template-columns: 1fr 1fr 2fr;
 }
 
 .article-item {
@@ -244,21 +257,33 @@ body {
   padding: 3rem 4rem 0;
   z-index: 10;
   transform: scale(1) translateY(0);
-  transition: all .4s;
+  transition: all 0.4s;
 }
 
-
-.article-item:not(:last-child):hover .article-item__arrow{
-  background-color: #1b71bb;
-  color: #ffffff;
-}
-
-.article-item:not(:last-child):hover  {
+.article-hover:hover {
   z-index: 20;
   transform: scale(1.05) translateY(-1px);
   background-color: #fff;
   box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.3);
-  }
+}
+
+.article-hover:hover .article-item__arrow {
+  background-color: #1b71bb;
+  color: #ffffff;
+}
+
+.article-features {
+  background-image: radial-gradient(#f1594b, #b13125);
+  border-radius: 0.8rem;
+}
+
+.main-article__2 .article-features {
+  margin-left: 4rem;
+}
+
+.main-article__3 .article-features {
+  margin-right: 4rem;
+}
 
 .article-item__time {
   text-transform: uppercase;
@@ -272,8 +297,6 @@ body {
   font-weight: 700;
   margin-bottom: 2rem;
 }
-
-
 
 .article-item__author {
   font-size: 1.5rem;
@@ -308,26 +331,41 @@ body {
   padding-left: 1.3rem;
 }
 
-
 .supporters-box {
   background-color: teal;
   border-radius: 1rem;
-text-align: center;
+  text-align: center;
   padding: 2rem;
   height: 30rem;
 }
-.sponsor__span{
+.sponsor__span {
   font-size: 1.5rem;
   font-weight: 200;
 }
 
-.supporters-box h4{
+.supporters-box h4 {
   text-transform: uppercase;
 }
 .supporters-box img {
   width: 80%;
 }
 
+.article-features {
+  text-align: center;
+  color: #fff;
+}
+.article-features__img {
+  width: 22rem;
+}
+
+.article-features__title {
+  font-weight: 700;
+  font-size: 4rem;
+  border-bottom: 2px inset rgba(238, 238, 238, 0.897);
+  display: inline-block;
+  padding-top: -0.5rem;
+  margin-bottom: 2rem;
+}
 
 /* animation */
 .rotate-up {
