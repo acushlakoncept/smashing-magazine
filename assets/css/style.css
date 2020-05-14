@@ -226,8 +226,13 @@ body {
   bottom: 2.5rem;
 }
 
+.main-article {
+  background-color: #f7f3f2;
+}
+
 .main-article__1 {
   display: grid;
+  position: relative;
   grid-template-columns: repeat(4, 1fr);
   padding-top: 10rem;
   margin-bottom: 3rem;
@@ -237,7 +242,23 @@ body {
   position: relative;
   height: 60rem;
   padding: 3rem 4rem 0;
+  z-index: 10;
+  transform: scale(1) translateY(0);
+  transition: all .4s;
 }
+
+
+.article-item:not(:last-child):hover .article-item__arrow{
+  background-color: #1b71bb;
+  color: #ffffff;
+}
+
+.article-item:not(:last-child):hover  {
+  z-index: 20;
+  transform: scale(1.05) translateY(-1px);
+  background-color: #fff;
+  box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.3);
+  }
 
 .article-item__time {
   text-transform: uppercase;
@@ -252,9 +273,7 @@ body {
   margin-bottom: 2rem;
 }
 
-.supporters-box img {
-  width: 100%;
-}
+
 
 .article-item__author {
   font-size: 1.5rem;
@@ -281,8 +300,7 @@ body {
   display: inline-block;
   height: 8rem;
   width: 8rem;
-  background-color: blue;
-  color: white;
+  color: #d33a2c;
   font-size: 3rem;
   text-align: center;
   vertical-align: middle;
@@ -290,6 +308,28 @@ body {
   padding-left: 1.3rem;
 }
 
+
+.supporters-box {
+  background-color: teal;
+  border-radius: 1rem;
+text-align: center;
+  padding: 2rem;
+  height: 30rem;
+}
+.sponsor__span{
+  font-size: 1.5rem;
+  font-weight: 200;
+}
+
+.supporters-box h4{
+  text-transform: uppercase;
+}
+.supporters-box img {
+  width: 80%;
+}
+
+
+/* animation */
 .rotate-up {
   transform: rotate(-20deg);
   transform-origin: left bottom;
