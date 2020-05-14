@@ -69,3 +69,8 @@ body {
   font-size: 2rem;
   color: #fff;
 }
+
+.secondary-articles{
+display: grid;
+grid-template-columns: ;
+}
