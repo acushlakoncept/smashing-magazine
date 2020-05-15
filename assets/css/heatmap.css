@@ -27,7 +27,7 @@ body {
   padding: 5rem 8rem;
 }
 
-.logo  {
+.logo {
   height: 8rem;
   width: 20rem;
   margin-top: 2rem;
@@ -380,53 +380,106 @@ body {
   margin-bottom: 2rem;
 }
 
-.book{
-  height: 100vh;
+.book {
+  height: 60rem;
   background: linear-gradient(#555555, #777777);
   position: relative;
+  text-align: center;
+  font-size: 2.5rem;
+  color: #fff;
+  padding: 3rem 10rem;
 }
 
-.book-h1{
+.book-btn {
+  margin: 3rem;
+  display: inline-block;
+  background-color: rgb(58, 58, 58);
+  padding: 2rem 5rem;
   color: #fff;
+  font-size: 2rem;
+}
+
+.book-h1 {
   font-size: 5rem;
-  text-align: center;
   padding-top: 10rem;
 }
 
-.weekperson{
- margin: 5rem;
+.weekperson {
+  margin: 6rem;
+  color: #fff;
+  padding: 4rem 5rem;
 }
 
-.weekperson__authors{
-  display: flex;
-  justify-content: space-around;
+.weekperson__text,
+.weekperson__img,
+.weekautthor_img__small,
+.other-author__content {
+  display: inline-block;
 }
-.weekperson__img{
-  width: 20rem;
-  height: 20rem;
+
+.weekperson__img {
+  width: 18rem;
+  height: 18rem;
   background-color: #727272;
-  border-radius: 2rem;
-}
-.other-author__content{
-  display: flex;
-  flex-flow: column nowrap;
-  margin: 5rem;
+  border-radius: 0.5rem;
+  margin-right: 1rem;
 }
 
-.other-week__authors{
+.weekperson__text {
+  vertical-align: top;
+  font-size: 2rem;
+  width: 70%;
+}
+
+.other-author__content {
+  width: 70%;
+  vertical-align: top;
+  font-size: 1.5rem;
+}
+
+.other-week__authors {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  margin: 5rem;
+  grid-column-gap: 4rem;
+  grid-row-gap: 10rem;
+  margin: 8rem 0;
 }
 
-.weekautthor_img__small{
-  height: 10rem;
-  width: 10rem;
+.other-author__name {
+  color: #eee;
+}
+
+.weekautthor_img__small {
+  height: 8rem;
+  width: 8rem;
   background-color: #727272;
   border-radius: 1rem;
-  margin-right: 4rem;
+  margin-right: 2rem;
 }
 
+.design-system {
+  background-color: #666;
+  padding: 6rem;
+  color: #fff;
+  font-size: 1.8rem;
+}
+
+.design-system h2 {
+  margin: 2rem 0;
+}
+
+.design-system__content button {
+  display: block;
+  padding: 1rem 3rem;
+  margin-top: 3rem;
+}
+
+.design-system__content {
+  width: 60%;
+}
+
+.design-system__book {
+}
 
 /* animation */
 .rotate-up {
