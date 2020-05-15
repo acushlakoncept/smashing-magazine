@@ -26,7 +26,7 @@ This project covers the following HTML and CSS3 concepts
 
 ## Live Demo
 
-[Live Demo Link](#)
+[Live Demo Link](https://raw.githack.com/acushlakoncept/smashing-magazine/feature-home/index.html)
 
 ## Getting Started
 
