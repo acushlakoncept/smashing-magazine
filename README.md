@@ -8,7 +8,7 @@ The goal of this project is to build a heatmap of the Smashing magazine website
 
 > Played around with media queries to work a bit on the site responsiveness even though the original isn't.
 
-![screenshot](./images/screenshot.jpg)
+![screenshot](https://raw.githubusercontent.com/acushlakoncept/smashing-magazine/feature-home/assets/images/screenshot.png)
 
 This project covers the following HTML and CSS3 concepts
 

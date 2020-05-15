@@ -51,7 +51,7 @@ body {
 
 .section-menu__nav--links:hover,
 .active {
-  background-color: #666666;
+  background-color: #666;
 }
 
 .menu-cat {
@@ -87,7 +87,7 @@ body {
   line-height: 1.5;
   font-weight: 700;
   color: #fff;
-  background-color: #555555;
+  background-color: #555;
   z-index: 10;
   -webkit-box-decoration-break: clone;
   box-decoration-break: clone;
@@ -276,12 +276,29 @@ body {
   box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.3);
 }
 
+.article-item__arrow {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: inline-block;
+  height: 8rem;
+  width: 8rem;
+  color: #030303;
+  font-size: 3rem;
+  text-align: center;
+  vertical-align: middle;
+  padding-top: 1.2rem;
+  padding-left: 1.3rem;
+}
+
 .article-hover:hover .article-item__arrow {
-  background-color: #555555;
-  color: #ffffff;
+  background-color: #555;
+  color: #fff;
 }
 
 .article-features {
+  text-align: center;
+  color: #fff;
   background-image: radial-gradient(#787878, #545454);
   border-radius: 0.8rem;
 }
@@ -297,7 +314,7 @@ body {
 .article-item__time {
   text-transform: uppercase;
   font-size: 1.2rem;
-  color: #111111;
+  color: #111;
 }
 
 .article-item__title {
@@ -327,21 +344,6 @@ body {
   color: #000;
 }
 
-.article-item__arrow {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  display: inline-block;
-  height: 8rem;
-  width: 8rem;
-  color: #030303;
-  font-size: 3rem;
-  text-align: center;
-  vertical-align: middle;
-  padding-top: 1.2rem;
-  padding-left: 1.3rem;
-}
-
 .supporters-box {
   background-color: teal;
   border-radius: 1rem;
@@ -349,24 +351,24 @@ body {
   padding: 2rem;
   height: 30rem;
 }
+
 .sponsor__span {
   font-size: 1.5rem;
   font-weight: 200;
 }
+
 .sponsor {
   display: none;
 }
+
 .supporters-box h4 {
   text-transform: uppercase;
 }
+
 .supporters-box img {
   width: 80%;
 }
 
-.article-features {
-  text-align: center;
-  color: #fff;
-}
 .article-features__img {
   width: 22rem;
 }
@@ -382,7 +384,7 @@ body {
 
 .book {
   height: 60rem;
-  background: linear-gradient(#555555, #777777);
+  background: linear-gradient(#555, #777);
   position: relative;
   text-align: center;
   font-size: 2.5rem;
@@ -492,22 +494,25 @@ body {
 .article-item__list {
   margin: 2.5rem;
 }
+
 .article-item__list li {
   font-size: 2rem;
   line-height: 2;
   list-style: disc;
 }
+
 .article-item__links {
   text-decoration: underline;
-  color: #555555;
+  color: #555;
 }
+
 .newsletter {
   padding: 10rem 5rem;
 }
 
 .footer {
   height: 50rem;
-  background-color: #555555;
+  background-color: #555;
   text-align: center;
   color: #fff;
   padding: 5rem;
