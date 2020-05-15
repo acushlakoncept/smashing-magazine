@@ -458,10 +458,11 @@ body {
 }
 
 .design-system {
-  background-color: #666;
+  background-color: #999;
   padding: 6rem;
   color: #fff;
   font-size: 1.8rem;
+  position: relative;
 }
 
 .design-system h2 {
@@ -479,6 +480,56 @@ body {
 }
 
 .design-system__book {
+  display: block;
+  width: 20rem;
+  height: 30rem;
+  background-color: #727272;
+  position: absolute;
+  right: 8rem;
+  top: -6rem;
+}
+
+.article-item__list {
+  margin: 2.5rem;
+}
+.article-item__list li {
+  font-size: 2rem;
+  line-height: 2;
+  list-style: disc;
+}
+.article-item__links {
+  text-decoration: underline;
+  color: #555555;
+}
+.newsletter {
+  padding: 10rem 5rem;
+}
+
+.footer {
+  height: 50rem;
+  background-color: #555555;
+  text-align: center;
+  color: #fff;
+  padding: 5rem;
+  font-size: 1.2rem;
+}
+
+.footer_list {
+  margin-top: 3rem;
+  padding: 1rem 15rem;
+  text-align: center;
+}
+
+.footer_list li {
+  display: inline-block;
+  margin-right: 2rem;
+  list-style: disc;
+}
+
+.footer_list a {
+  color: #fff;
+  font-size: 2rem;
+  line-height: 2;
 }
 
 /* animation */
