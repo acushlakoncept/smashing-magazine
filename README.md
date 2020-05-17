@@ -2,13 +2,13 @@
 
 The goal of this project is to build a heatmap of the Smashing magazine website
 
-> I learned to size and position the page using correct semantic HTML elements appropriately.
+> I learned  to think in terms of visual hierarchy, typography and design principles.
 
-> Correctly setting up the navigation bar.
+> Created a grayscale heat map of the website that indicates which elements have the greatest weight in the visual hierarchy.
 
-> Played around with media queries to work a bit on the site responsiveness even though the original isn't.
+>Got better at positioning
 
-![screenshot](./images/screenshot.jpg)
+![screenshot](https://raw.githubusercontent.com/acushlakoncept/smashing-magazine/feature-home/assets/images/screenshot.png)
 
 This project covers the following HTML and CSS3 concepts
 
@@ -26,7 +26,7 @@ This project covers the following HTML and CSS3 concepts
 
 ## Live Demo
 
-[Live Demo Link](#)
+[Live Demo Link](https://raw.githack.com/acushlakoncept/smashing-magazine/feature-home/index.html)
 
 ## Getting Started
 
